@@ -63,3 +63,12 @@ Clustering further optimized filtering by avocado type, improving query efficien
 ## Outcome
 
 Partitioned and clustered tables demonstrated improved query performance compared to non-optimized tables, validating optimization techniques commonly used in business intelligence and cloud data warehousing environments.
+## Repository Structure
+
+```text
+queries/
+├── create_baseline_table.sql
+├── create_partitioned_table.sql
+├── create_clustered_table.sql
+└── performance_query.sql
+```
